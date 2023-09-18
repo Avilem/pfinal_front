@@ -15,13 +15,14 @@
 
     </style>
     <title>Ecommerce - Inicio</title>
+    <link rel="stylesheet" href="app.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-        <h1 id="header">Tienda de <span style="color: #037BC0;"> Muebles</span> </h1>
+        <h1 id="header">Tienda de <span class="muebles"> Muebles</span> </h1>
 
         <ul id="navbar">
             <li><a href="#">Inicio</a></li>
@@ -32,93 +33,95 @@
             <li><a href="#">Contacto</a></li>
         </ul>
 
-        <div id="hero">
-
+        <div class="hero">
+            Hero
         </div>
 
         <main id="main">
-            <h2>Nuestros productos</h2>
 
-            <div id="row1">
-                <div id="col1"><img src="/images/producto1.jpg" alt="producto1"></div>
-                <div id="col2" style="background-color: #037BC0;">
+        <div class="container">
+            <h2 id="np">Nuestros productos</h2>
+
+            <div id="r1">
+                <div id="r1col1"><img src="/images/producto1.jpg" alt="producto1"></div>
+                <div id="r1col2" style="background-color: #037BC0;">
                     <h3>Producto 1</h3>
                     <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi rerum quaerat adipisci voluptatibus totam molestias.</p>
                     <p id="price">$12,000</p>
-                    <button type="carrito">Añadir al carrito</button>
+                    <button class="carrito" type="button">Añadir al carrito</button>
                 
                 </div>
             </div>
 
-            <div id="row2">
-                    <div id="col1"><img src="images/producto2.jpg" alt="producto2">
+                <div id="r2">
+                    <div id="r2col1"><img src="images/producto2.jpg" alt="producto2">
                         <div id="info" style="background-color: #037BC0;">
                             <h3>Producto 2</h3>
                             <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, harum!</p>
                             <p id="price">$12,000</p>
-                            <button type="carrito">Añadir al carrito</button>
+                            <button class="carrito" type="button">Añadir al carrito</button>
                         </div>
                     </div>
-                    <div id="col2"><img src="images/producto3.jpg" alt="producto2">
+                    <div id="r2col2"><img src="images/producto3.jpg" alt="producto2">
                         <div id="info" style="background-color: #037BC0;">
                             <h3>Producto 3</h3>
                             <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt veniam a.</p>
                             <p id="price">$12,000</p>
-                            <button type="carrito">Añadir al carrito</button>
+                            <button class="carrito" type="button">Añadir al carrito</button>
                         </div>
                     </div>
-            </div>
+                </div>
 
-            <div id="row3">
-                <div id="col1"><img src="images/producto4.jpg" alt="producto4">
+            <div id="r3">
+                <div id="r3col1"><img src="images/producto4.jpg" alt="producto4">
                     <div id="info" style="background-color: #037BC0;">
                         <h3>Producto 4</h3>
                         <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt veniam a.</p>
                         <p id="price">$12,000</p>
-                        <button type="carrito">Añadir al carrito</button>
+                        <button class="carrito" type="button">Añadir al carrito</button>
                     </div>
 
                 </div>
 
-                <div id="col2"><img src="images/producto5.jpg" alt="producto5">
+                <div id="r3col2"><img src="images/producto5.jpg" alt="producto5">
                     <div id="info" style="background-color: #037BC0;">
                         <h3>Producto 5</h3>
                         <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt veniam a.</p>
                         <p id="price">$12,000</p>
-                        <button type="carrito">Añadir al carrito</button>
+                        <button class="carrito" type="button">Añadir al carrito</button>
                     </div>
                     
                 </div>
 
-                <div id="col3"><img src="images/producto6.jpg" alt="producto6">
+                <div id="r3col3"><img src="images/producto6.jpg" alt="producto6">
                     <div id="info" style="background-color: #037BC0;">
                         <h3>Producto 6</h3>
                         <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt veniam a.</p>
                         <p id="price">$12,000</p>
-                        <button type="carrito">Añadir al carrito</button>
+                        <button class="carrito" type="button">Añadir al carrito</button>
                     </div>
                 </div>
             </div>
 
-            <h2>Categorías de Productos</h2>
+            <h2 id="categpro">Categorías de Productos</h2>
 
-            <div id="rowcateg">
-                <div id="col1">
+            <div id="r4">
+                <div id="r4col1">
                     <img src="images/categoria1.jpg" alt="cat1">
                     <a href="#">Oficina</a>
                 </div>
-                <div id="col2">
+                <div id="r4col2">
                     <img src="images/categoria2.jpg" alt="cat1">
                     <a href="#">Hogar</a>
                 </div>
-                <div id="col3">
+                <div id="r4col3">
                     <img src="images/categoria3.jpg" alt="cat1">
                     <a href="#">Cocina</a>
                 </div>
-
             </div>
+        
 
-
+        </div>
         </main>
 
         <footer>
