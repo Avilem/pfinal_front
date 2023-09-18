@@ -58,6 +58,12 @@ h2,h3 {
 
 /*Media Query*/
 
+@media (max-width: 768px) {
+    .hero {
+        width: 55rem;
+    }
+  }
+
 
 /** Reescribir colores */
 .muebles{
